@@ -11,6 +11,28 @@ html {
   scroll-behavior: smooth;
 }
 
+.speak h1 {
+  /* font-size: 3em;
+  width: 60wv;
+  margin-bottom: 10px; */
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin: 0;
+  color: var(--keus_black1);
+}
+
+.speak p {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: var(--keus_black2);
+}
+
 /* Responsive Helpers */
 @media screen and (min-width: 1025px
 
@@ -289,28 +311,6 @@ html {
   background-repeat: no-repeat;
 }
 
-.speak h1 {
-  /* font-size: 3em;
-  width: 60wv;
-  margin-bottom: 10px; */
-  font-family: 'Playfair Display', serif;
-  font-style: normal;
-  font-weight: normal;
-  text-align: center;
-  letter-spacing: 0.02em;
-  margin: 0;
-  color: var(--keus_black1);
-}
-
-.speak p {
-  font-family: Source Sans Pro;
-  font-style: normal;
-  font-weight: normal;
-  text-align: center;
-  letter-spacing: 0.01em;
-  color: var(--keus_black2);
-}
-
 :root {
   font-size: 20px;
   font-family: "Open Sans", sans-serif;
@@ -363,6 +363,14 @@ body {
   overflow: hidden;
 }
 
+.section3-sequence_s1 h1 {
+  color: var(--keus_white1);
+}
+.section3-sequence_img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
 .section3-sequence_vid {
   height: 100%;
   width: 177.77777778vh;
