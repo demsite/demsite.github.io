@@ -370,6 +370,8 @@ body {
   height: 100%;
   width: 100%;
   position: absolute;
+  object-fit: cover;
+  object-position: center;
 }
 .section3-sequence_vid {
   height: 100%;
