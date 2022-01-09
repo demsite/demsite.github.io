@@ -118,7 +118,7 @@ cursor: pointer;
 }
 
 .speak[data-scroll] {
-  transform: translatey(calc(var(--viewport-y) * 30vh)) 1s;
+  transform: translatey(calc(var(--viewport-y) * 100vh)) 1s;
   opacity: calc(var(--visible-y)) 1s;
 }
 
